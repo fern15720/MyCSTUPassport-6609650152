@@ -1,0 +1,47 @@
+body{
+    background-image:url('mybg.jpeg') ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    font-style: initial;
+    
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-style: oblique;
+    font-size: 30px;
+}
+q{
+    font-size: 35px;
+}
+p{
+    font-weight: bold;
+}
+.box{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    border-bottom: dashed 2px #999;
+}
+.contrainer{
+    width:1200px;
+    margin:0 auto;
+}
+.mid{
+    margin-top: 100px;
+}
+.flex-layout{
+    display: flex;
+
+}
+.flex-layout div{
+    font-size: 35px;
+    background-color: rgb(184, 147, 202);
+    margin: 2px;
+    text-align: center;
+    height: 60px;
+}
